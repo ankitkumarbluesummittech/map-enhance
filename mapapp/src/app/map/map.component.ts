@@ -6,6 +6,7 @@ import * as WeatherLayers from 'weatherlayers-gl';
 import { ClipExtension } from '@deck.gl/extensions/typed';
 import * as d3 from 'd3';
 import { FlowmapLayer } from '@flowmap.gl/layers';
+import { FlowColorsRGBA } from '@flowmap.gl/data';
 
 @Component({
   selector: 'app-map',
